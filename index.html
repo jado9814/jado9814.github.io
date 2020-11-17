@@ -10,6 +10,82 @@
   </ul>
   <h1>Jacob's Big ole Webpage</h1>
   <h2> Welcome to my humble internet abode. Please enjoy your stay</h2>
+    <section id="overlay">
+      <img src="https://webstockreview.net/images/accountant-clipart-male-accountant.png" alt="Jacob Survey Logo" id="logo">
+      <hr>
+      <form action="submission.html" method="POST">
+        <h1>Rate your Resident Jacob!</h1>
+					<section class="protein">
+          <label for="patty">What type of Jacob do you know?</label>
+    			<input type="text" name="patty" id="patty">
+        </section>
+        <hr>
+        <section class="patties">
+          <label for="amount">How many Jacobs do you know?</label>
+          <input type="number" name="amount" id="amount">
+        </section>
+        <hr>
+        <section class="cooked">
+          <label for="doneness">How much do you want to slap your Jacob?</label>
+          <br>
+          <span>Not at all!</span>
+          <input type="range" name="doneness" id="doneness" value="3" min="1" max="5">
+          <span>Literally Always</span>
+        </section>
+        <hr>
+        <section class="toppings">
+          <span>What would you like to throw at Jacob?</span>
+          <br>
+          <input type="checkbox" name="topping" id="lettuce" value="lettuce">
+          <label for="lettuce">Money</label>
+          <input type="checkbox" name="topping" id="tomato" value="tomato">
+          <label for="tomato">Garbage</label>
+          <input type="checkbox" name="topping" id="onion" value="onion">
+          <label for="onion">Dogs</label>
+        </section>
+        <hr>
+        <section class="cheesy">
+          <span>Would you like to add cheese?</span>
+          <br>
+          <input type="radio" name="cheese" id="yes" value="yes">
+          <label for="yes">Yes</label>
+          <input type="radio" name="cheese" id="no" value="yes">
+          <label for="no">No</label>
+        </section>
+        <hr>
+        <section class="bun-type">
+          <label for="bun">What type of stupid shoes was he wearing?</label>
+          <select name="bun" id="bun">
+            <option value="sesame">Stupid ones for sure</option>
+            <option value="potatoe">Barefoot, gross</option>
+            <option value="pretzel">Pretzel shoes</option>
+          </select>
+        </section>
+        <hr>
+        <section class="sauce-selection">
+          <label for="sauce">What type of food was he eating? (he was obviously eating)</label>
+          <input list="sauces" id="sauce" name="sauce">
+          <datalist id="sauces">
+            <option value="Taco Bell"></option>
+            <option value="Chilli's"></option>
+            <option value="His own fingers"></option>
+          </datalist>
+        </section>
+        <hr>
+        <section class="extra-info">
+          <label for="extra">Put your best Jacob jokes here!</label>
+          <br>
+          <textarea id="extra" name="extra" rows="3" cols="40"></textarea>
+        </section>
+        <hr>
+
+        <section class="submission">
+          <!--Add your code below-->
+          <input type="submit" value="Submit">
+        </section>
+        
+      </form>
+    </section>
   <table>
     <thead>
       <tr>
